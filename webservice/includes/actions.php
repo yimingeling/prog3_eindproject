@@ -2,7 +2,7 @@
 /**
  * @return array
  */
-function getDishes(): array
+function getOpeners(): array
 {
     return [
         [
@@ -37,7 +37,7 @@ function getDishes(): array
  * @param $id
  * @return array|false
  */
-function getDishDetails($id): array|false
+function getOpenerDetails($id): array|false
 {
     $tags = [
         1 => [
